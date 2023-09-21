@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: beige;
+    width: 600px;
+    margin-left: 10px;
+
+}
+p{
+    font-family: 'product sans';
+    font-size: 18px;
+}
+
+h1{
+    background-color: white;
+    font-family: 'Outfit';
+    text-align: center; 
+    margin-top: 5px;
+    border: 1px  ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    box-shadow: 0px 0px 4px black;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    border-radius: 10px;
+}
+
+.container{
+    display: grid;
+    border: 1px ;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+.cocktail-img{
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+.cocktail-img img{
+
+    height: 300px;
+    border-radius: 30px;
+}
+.btn{
+    margin-top: 20px;
+    
+}
+.generate-btn{
+    height: 30px;
+    width: 120px;
+    padding-top: 10px ;
+    padding-bottom: 30px;
+    border-radius: 30px;
+    border: none;
+    font-size:17px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font-family: 'product sans';
+    transition: opacity 1s ;
+
+    
+}
+.generate-btn:active{
+    opacity: 0.4;
+
+}
+
+.generate-btn:hover{
+    /* opacity: 0.7; */
+    background-color: rgb(112, 184, 79);
+    color: white;
+
+}
+
+span{
+    color: rgb(245, 61, 61);
+    font-weight: bold;
+    
+}
+
+.cocktail-name p{
+    font-size: 22px;
+    margin-bottom: 10px;   
+}
+.cocktail-ingredient{
+
+    width: auto;
+}
